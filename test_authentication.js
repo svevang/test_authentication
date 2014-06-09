@@ -1,4 +1,4 @@
-Messages = new Meteor.Collection("sessions");
+Sessions = new Meteor.Collection("sessions");
 
 if (Meteor.isClient) {
   Template.hello.greeting = function () {
